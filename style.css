@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  #content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+  body{
+    background-color: rgb(108, 106, 106);
+  }
+
+.text{
+    padding-left: 200px;
+    padding-top: -10px;
+    text-align: left;
+}
+.text .home{
+   
+    padding-top: 300px;
+    padding-bottom: 500px;
+    font-size: xx-large;
+
+}
+
+.text .home h5{
+    padding-left: 50px;
+}
+.text .education{
+  
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 300px;
+    font-size: xx-large;
+
+}
+
+.text ul h5{
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.text ul li{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.text h2{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.text .skills{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 500px;
+    font-size: xx-large;
+
+}
+.text .skills h4{
+    padding-bottom: 20px;
+
+}
+
+.text .cource{
+  
+    padding-top: 100px;
+    padding-bottom: 500px;
+    font-size: xx-large;
+
+}
+.text .intrest{
+  
+    padding-top: 100px;
+    padding-bottom: 300px;
+    font-size: xx-large;
+
+}
+.text .projects{
+    padding-top: 100px;
+    
+    padding-bottom: 500px;
+    font-size: xx-large;
+
+}
+
+.navbar{
+     display: flex;
+     position: relative;
+     width: 200px;
+  height: 100%;
+  background: #090109;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.navbar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+
+  .navbar ul li a{
+    color: #bdb8d7;
+    display: block;
+
+  }
+  
+footer ul{
+    list-style: none;
+    display: flex;
+    margin: 1em 0; 
+}
+footer ul li a{
+    padding: 1em; 
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+footer ul li a:hover{
+    color: var(--primary);
+}
+
+footer{
+    width: 100%;
+    background: #000000;
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    padding: 2em; 
+    font-size: 1.2rem;
+}
